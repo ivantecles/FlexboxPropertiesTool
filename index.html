@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Flexbox Properties Tool</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Flexbox Properties Tool</h1>
+
+    <p>Preview</p>
+    <div id="preview" class="preview"></div>
+
+    <p>Choose the <strong>number of items</strong> (1-8).</p>
+    <div class="items">
+      <input type="number" id="number-items" value="1" min="1" max="8" />
+    </div>
+
+    <p>Now set all the <strong>flexbox</strong> properties.</p>
+    <div class="properties">
+      <div class="column flex-direction">
+        <h2>flex-direction</h2>
+        <input type="radio" id="row" name="flex-direction" value="row" checked>
+        <label for="row">row (default)</label><br>
+        <input type="radio" id="row-reverse" name="flex-direction" value="row-reverse">
+        <label for="row-reverse">row-reverse</label><br>
+        <input type="radio" id="column" name="flex-direction" value="column">
+        <label for="column">column</label><br>
+        <input type="radio" id="column-reverse" name="flex-direction" value="column-reverse">
+        <label for="column-reverse">column-reverse</label>
+      </div>
+
+      <div class="column flex-wrap">
+        <h2>flex-wrap</h2>
+        <input type="radio" id="nowrap" name="flex-wrap" value="nowrap" checked>
+        <label for="nowrap">nowrap (default)</label><br>
+        <input type="radio" id="wrap" name="flex-wrap" value="wrap">
+        <label for="wrap">wrap</label><br>
+        <input type="radio" id="wrap-reverse" name="flex-wrap" value="wrap-reverse">
+        <label for="wrap-reverse">wrap-reverse</label>
+      </div>
+
+      <div class="column justify-content">
+        <h2>justify-content</h2>
+        <input type="radio" id="flex-start" name="justify-content" value="flex-start" checked>
+        <label for="flex-start">flex-start (default)</label><br>
+        <input type="radio" id="flex-end" name="justify-content" value="flex-end">
+        <label for="flex-end">flex-end</label><br>
+        <input type="radio" id="center" name="justify-content" value="center">
+        <label for="center">center</label><br>
+        <input type="radio" id="space-around" name="justify-content" value="space-around">
+        <label for="space-around">space-around</label><br>
+        <input type="radio" id="space-between" name="justify-content" value="space-between">
+        <label for="space-between">space-between</label>
+      </div>
+
+      <div class="column align-items">
+        <h2>align-items</h2>
+        <input type="radio" id="stretch" name="align-items" value="stretch" checked>
+        <label for="stretch">stretch (default)</label><br>
+        <input type="radio" id="baseline" name="align-items" value="baseline">
+        <label for="baseline">baseline</label><br>
+        <input type="radio" id="center" name="align-items" value="center">
+        <label for="center">center</label><br>
+        <input type="radio" id="flex-start" name="align-items" value="flex-start">
+        <label for="flex-start">flex-start</label><br>
+        <input type="radio" id="flex-end" name="align-items" value="flex-end">
+        <label for="flex-end">flex-end</label>
+      </div>
+
+      <div class="column align-content">
+        <h2>align-content</h2>
+        <input type="radio" id="stretch" name="align-content" value="stretch" checked>
+        <label for="stretch">stretch (default)</label><br>
+        <input type="radio" id="center" name="align-content" value="center">
+        <label for="center">center</label><br>
+        <input type="radio" id="flex-start" name="align-content" value="flex-start">
+        <label for="flex-start">flex-start</label><br>
+        <input type="radio" id="flex-end" name="align-content" value="flex-end">
+        <label for="flex-end">flex-end</label>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
