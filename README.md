@@ -9,6 +9,8 @@
 ## General Information
 Flexbox Properties Tool (Test CSS Flexbox rules).
 
+![Flexbox Properties Tool](https://github.com/ivantecles/FlexboxPropertiesTool/blob/master/img/FlexboxPropertiesTool.png?raw=true)
+
 ## Technologies
 The project uses the following technologies:
 * HTML5
