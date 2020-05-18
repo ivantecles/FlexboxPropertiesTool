@@ -8,7 +8,7 @@
 
 ## General Information
 Flexbox Properties Tool (Test CSS Flexbox rules).
-	
+
 ## Technologies
 The project uses the following technologies:
 * HTML5
@@ -30,5 +30,4 @@ The project has a **src** folder that includes...
 
 2) Open the project in Visual Studio Code and launch it with the Live Server extension (from the **index.html** file).
 
-3) Congratulations! Now you can play with all the flexbox properties :smiley:# FlexboxProperties
-# FlexboxProperties
+3) Congratulations! Now you can play with all the flexbox properties :smiley:
