@@ -25,6 +25,7 @@ The project has a **src** folder that includes...
 > /index.html\
 > /css/style.css\
 > /js/script.js\
+> /img/FlexboxPropertiesTool.png\
 > /README.md
 
 ## Installation and Usage
